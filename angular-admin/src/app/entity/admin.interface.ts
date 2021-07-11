@@ -1,0 +1,15 @@
+export interface Admin {
+  id_admin?: number,
+  username?: string,
+  password?: string,
+  email?: string,
+  phone?: string,
+  address?: string,
+  role_admin?: string,
+  status?: string,
+  img_path?: string,
+  create_user?: string,
+  create_time?: string,
+  update_user?: string,
+  update_time?: string,
+}
