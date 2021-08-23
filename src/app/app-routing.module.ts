@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ForgotComponent } from './admin/forgot/forgot.component';
 import { LoginComponent } from './admin/login/login.component';
+import { NghichdaiComponent } from './admin/nghichdai/nghichdai.component';
 import { PageNotFoundComponent } from './admin/page-not-found/page-not-found.component';
 import { RegisterComponent } from './admin/register/register.component';
 import { ResetComponent } from './admin/reset/reset.component';
@@ -11,8 +12,9 @@ const routes: Routes = [
   { path: 'admin/forgot', component: ForgotComponent },
   { path: 'admin/register', component: RegisterComponent },
   { path: 'admin/reset', component: ResetComponent },
+  { path: 'nghichdai', component: NghichdaiComponent },
   { path: '**', redirectTo: '/page-not-found' },
-  { path: 'page-not-found', component: PageNotFoundComponent }
+  { path: 'page-not-found', component: PageNotFoundComponent },
 ];
 
 @NgModule({

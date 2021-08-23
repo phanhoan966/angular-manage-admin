@@ -9,6 +9,7 @@ import { ForgotComponent } from './admin/forgot/forgot.component';
 import { RegisterComponent } from './admin/register/register.component';
 import { ResetComponent } from './admin/reset/reset.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NghichdaiComponent } from './admin/nghichdai/nghichdai.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     PageNotFoundComponent,
     ForgotComponent,
     RegisterComponent,
-    ResetComponent
+    ResetComponent,
+    NghichdaiComponent
   ],
   imports: [
     BrowserModule,

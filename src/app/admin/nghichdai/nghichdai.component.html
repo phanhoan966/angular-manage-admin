@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="text-center">
+            Có nhận không
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-xs-4 col-md-4 button1">
+            <div *ngIf="condition1" (mouseenter) ="mouseEnter('button1')">
+                <button type="button" class="btn btn-primary">Không</button>
+            </div>
+        </div>
+        <div class="col-xs-4 col-md-4">
+            <button type="button" class="btn btn-secondary" (click)="onClickOk()">Có</button>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-xs-4 col-md-4 button1">
+            <div *ngIf="condition2" (mouseenter) ="mouseEnter('button2')">
+                <button type="button" class="btn btn-primary">Không</button>
+            </div>
+        </div>
+        <div class="col-xs-4 col-md-4 button1">
+            <div *ngIf="condition3" (mouseenter) ="mouseEnter('button3')">
+                <button type="button" class="btn btn-primary">Không</button>
+            </div>
+        </div>
+    </div>
+</div>
